@@ -1,2 +1,8 @@
+from car import Car
+
 if __name__ == "__main__":
-    print("hola mundo,te saludo desde python")
+    car=Car()
+    car.license="AMC-234"
+    car.driver="Andres Jimenez"
+    car.passengers=4
+    print(vars(car))
